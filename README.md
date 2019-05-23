@@ -1,77 +1,87 @@
-# MyFirstGitRepo
-# About / Synopsis
+# Project Title
 
-* What is it, what does it do / Abstract
-* Project status: working/prototype
-* Nuxeo Support
+One Paragraph of project description goes here
 
-# Table of contents
+## Getting Started
 
-Use for instance https://github.com/ekalinin/github-markdown-toc
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-# Installation
+### Prerequisites
 
-Sample:
-- From the Nuxeo Marketplace: install [the Sample Nuxeo Package](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-sample).
-- From the Nuxeo server web UI "Admin / Update Center / Packages from Nuxeo Marketplace"
-- From the command line: `nuxeoctl mp-install nuxeo-sample`
+What things you need to install the software and how to install them
 
-# Usage
-## Screenshots
-## Features
+```
+Give examples
+```
 
-# Code
-## QA
+### Installing
 
-[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=addons_nuxeo-sample-project-master)](https://qa.nuxeo.org/jenkins/job/addons_nuxeo-sample-project-master/)
+A step by step series of examples that tell you how to get a development env running
 
-If QA resources are included, sample: https://github.com/nuxeo/nuxeo-sdk-ios/blob/master/README.md
+Say what the step will be
 
-## Content
+```
+Give the example
+```
 
-Description, sub-modules organization...
+And repeat
 
-## Requirements
+```
+until finished
+```
 
-See [CORG/Compiling Nuxeo from sources](http://doc.nuxeo.com/x/xION)
+End with an example of getting some data out of the system or using it for a little demo
 
-Sample: https://github.com/nuxeo/nuxeo-distribution
+## Running the tests
 
-## Limitations
+Explain how to run the automated tests for this system
 
-Sample: https://github.com/nuxeo/nuxeo-elasticsearch/blob/master/README.md
+### Break down into end to end tests
 
-## Build
+Explain what these tests test and why
 
-    mvn clean install
+```
+Give an example
+```
 
-Build options:
-- ...
+### And coding style tests
 
-## Deploy (how to install build product)
+Explain what these tests test and why
 
-Direct to MP package if any. Otherwise provide steps to deploy on Nuxeo Platform: << Copy the built artifacts into `$NUXEO_HOME/templates/custom/bundles/` and activate the `custom` template. >>.
+```
+Give an example
+```
 
-# Resources (Documentation and other links)
+## Deployment
 
-# Contributing / Reporting issues
+Add additional notes about how to deploy this on a live system
 
-Link to JIRA component (or project if there is no component for that project).
-Sample: https://jira.nuxeo.com/browse/NXP/component/14503/
-Sample: https://jira.nuxeo.com/secure/CreateIssue!default.jspa?project=NXP
+## Built With
 
-# License
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+## Contributing
 
-Sample: https://github.com/nuxeo/nuxeo-drive
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-# About Nuxeo
+## Versioning
 
-The [Nuxeo Platform](http://www.nuxeo.com/products/content-management-platform/) is an open source customizable and extensible content management platform for building business applications. It provides the foundation for developing [document management](http://www.nuxeo.com/solutions/document-management/), [digital asset management](http://www.nuxeo.com/solutions/digital-asset-management/), [case management application](http://www.nuxeo.com/solutions/case-management/) and [knowledge management](http://www.nuxeo.com/solutions/advanced-knowledge-base/). You can easily add features using ready-to-use addons or by extending the platform using its extension point system.
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-The Nuxeo Platform is developed and supported by Nuxeo, with contributions from the community.
+## Authors
 
-Nuxeo dramatically improves how content-based applications are built, managed and deployed, making customers more agile, innovative and successful. Nuxeo provides a next generation, enterprise ready platform for building traditional and cutting-edge content oriented applications. Combining a powerful application development environment with
-SaaS-based tools and a modular architecture, the Nuxeo Platform and Products provide clear business value to some of the most recognizable brands including Verizon, Electronic Arts, Sharp, FICO, the U.S. Navy, and Boeing. Nuxeo is headquartered in New York and Paris.
-More information is available at [www.nuxeo.com](http://www.nuxeo.com).
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
